@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #2B2A2C;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    border-bottom: 1px rgba(0,0,0,.2) solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-size: 27px;
+    font-weight: bold;
+}
+.header__btns {
+    display: flex;
+    justify-content: space-between;
+}
+.header__item {
+    text-decoration: none;
+    color: #2B2A2C;
+    font-size: 18px;
+    padding: 30px;
+    border-color: rgba(0,0,0,.2);
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    font-weight: 600;
+}
+.header__item:last-child {
+    text-decoration: underline;
+}
+
+.intro {
+    background-color: #5aff7f;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.intro__circle {
+    position: absolute;
+    right: 0;
+    top: -120px;
+    width: 1100px;
+    height: 1100px;
+    background-color: #00ff56;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+    object-fit: cover;
+    bottom: 0;
+}
+.intro__inner {
+    padding: 250px 0;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.intro__info {
+    width: 400px;
+    z-index: 2;
+}
+.intro__title {
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 500;
+}
+.intro_subtitle {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.intro__btn {
+    margin-top: 40px;
+    display: inline-block;
+    color: black;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 22px 70px;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 170px;
+    text-align: center;
+}
+.intro__img {
+    z-index: 3;
+}
+.intro__avatar {
+    width: 570px;
+    position: absolute;
+    bottom: 0;
+    right: 230px;
+}
+
+.about {
+    background-image: url('img/back.jpg');
+    text-align: center;
+    padding: 100px 0;
+}
+.about__inner {
+    background-color: #fff;
+    color: black;
+    width: 950px;
+    padding: 100px 125px;
+    margin: 0 auto;
+}
+.about__title {
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5aff7f;
+    margin-bottom: 20px;
+}
+.about__introduce {
+    font-weight: 400;
+    font-size: 37px;
+    margin-bottom: 40px;
+}
