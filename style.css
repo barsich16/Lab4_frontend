@@ -199,3 +199,109 @@ header {
     line-height: 1.45;
     margin-top: 40px;
 }
+
+.expertise {
+    padding: 100px 0 100px;
+}
+.expertise__title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.expertise__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.expertise__items {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    background-color: #00ff56;
+    padding-bottom: 45px;
+}
+.expertise__info {
+    width: 39%;
+    font-size: 19px;
+}
+.expertise__info p{
+    margin-top: 30px;
+    font-weight: 500;
+    color: rgba(0,0,0,.7);
+}
+.expertise__item {
+    font-size: 45px;
+    font-weight: 400;
+    padding: 55px 50px 0 55px;
+    color: rgba(0,0,0,.5);
+}
+.expertise__item:first-child {
+    position: relative;
+    color: #000;
+}
+.arrow__left {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid transparent;  /* left arrow slant */
+    border-top: 20px solid transparent; /* right arrow slant */
+    border-right: 20px solid #fff; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+.experience {
+    padding-bottom: 50px;
+}
+.cards__title {
+    font-size: 70px;
+    font-weight: 400;
+}
+.cards {
+    margin: 30px 0 0 210px;
+    width: 900px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+    padding: 35px 0;
+}
+.card__title {
+    font-size: 35px;
+}
+.card__header {
+    display: flex;
+    justify-content: space-between;
+}
+.card__link {
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.card__date {
+    font-size: 16px;
+    margin: 10px 0 30px;
+}
+.card__info {
+    font-size: 16px;
+}
+.card__item {
+    border-bottom: 1px rgba(0,0,0,.2) solid;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ff56;
+    padding-top: 100px;
+}
+.quote__img {
+    width: 55%;
+}
+.quote__text {
+    width: 45%;
+    padding: 115px 108px 0;
+    font-size: 30px;
+}
